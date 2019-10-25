@@ -7,3 +7,4 @@ class stats(models.Model):
 
     def _str_(self):
         return f'Temp = {self.temperature} dan Humadity = {self.humadity}'
+
